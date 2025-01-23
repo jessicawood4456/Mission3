@@ -13,6 +13,7 @@ namespace Mission3
         public int quantity;
         public DateTime date;
         
+        // Constructor that creates food item objects
         public FoodItem(string name, string category, int quantity, DateTime date)
         {
             this.name = name;
